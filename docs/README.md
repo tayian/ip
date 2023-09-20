@@ -35,21 +35,21 @@ Lists all existing tasks.
 
 Adds a new Todo task with the provided description.
 
-### `deadline {task description}/by {deadline}` - Add a task with a deadline.
+### `deadline {task description} /by {deadline}` - Add a task with a deadline.
 
 **Example of usage:**
 
-`deadline Submit report/by 2023-09-30 14:00`
+`deadline Submit report /by 2023-09-30 14:00`
 
 **Expected outcome:**
 
 Adds a new task with the provided description and deadline.
 
-### `event {task description}/from {start time}/to {end time}` - Add an event.
+### `event {task description} /from {start time}/to {end time}` - Add an event.
 
 **Example of usage:**
 
-`event Team meeting/from 2023-09-28 10:00/to 2023-09-28 11:30`
+`event Team meeting /from today /to tomorrow night`
 
 **Expected outcome:**
 
