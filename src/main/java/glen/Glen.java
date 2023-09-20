@@ -49,9 +49,15 @@ public class Glen extends Application {
         tasks = storage.read();
     }
 
+    /**
+     * Main entry point for this JavaFX application.
+     * Defines the user interface container by means of a stage and a scene.
+     * The JavaFX Stage class is the top-level JavaFX container for all content.
+     * 
+     * @param stage Stage to be displayed.
+     */
     @Override
     public void start(Stage stage) {
-        //The container for the content of the chat to scroll.
         scrollPane = new ScrollPane();
         dialogContainer = new VBox();
         scrollPane.setContent(dialogContainer);
@@ -106,8 +112,6 @@ public class Glen extends Application {
         });
 
         dialogContainer.heightProperty().addListener((observable) -> scrollPane.setVvalue(1.0));
-
-        // more code to be added here later
     }
 
     int initial = 0;
@@ -148,8 +152,10 @@ public class Glen extends Application {
     }
 
     /**
-     * You should have your own function to generate a response to user input.
-     * Replace this stub with your completed method.
+     * Generates a response to user input.
+     * 
+     * @param input User input.
+     * @return Response to user input.
      */
     private String getResponse(String input) {
         String output = new Parser(storage, tasks).parseInput(input);
