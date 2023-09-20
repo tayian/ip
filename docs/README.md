@@ -48,11 +48,11 @@ Adds a new Todo task with the provided description.
 
 Adds a new task with the provided description and deadline.
 
-### `event {task description}/by {start time}/{end time}` - Add an event.
+### `event {task description}/from {start time}/to {end time}` - Add an event.
 
 **Example of usage:**
 
-`event Team meeting/by 2023-09-28 10:00/2023-09-28 11:30`
+`event Team meeting/from 2023-09-28 10:00/to 2023-09-28 11:30`
 
 **Expected outcome:**
 
