@@ -6,9 +6,6 @@ Glen is your ultimate task and contact manager, designed to simplify your task a
 ### Task Management
 Glen makes managing your tasks a breeze. You can easily add, edit, and mark tasks as complete.
 
-### Contact Management
-Effortlessly manage your contacts with Glen. Add, remove, and list your contacts quickly.
-
 ### Deadlines and Reminders (Coming Soon)
 Never miss an important date or task with Glen's upcoming deadlines and reminders feature.
 
